@@ -1,0 +1,47 @@
+{
+  "merchant_id": "M123456",
+  "merchant_name": "ABC Online Store",
+  "transactions": [
+    {
+      "transaction_id": "TXN001",
+      "customer_id": "CUST1001",
+      "amount": 2500.75,
+      "currency": "INR",
+      "payment_method": "UPI",
+      "status": "SUCCESS",
+      "timestamp": "2025-08-20T10:45:00Z",
+      "items": [
+        {
+          "item_id": "ITEM001",
+          "description": "Wireless Mouse",
+          "quantity": 1,
+          "price": 1200.50
+        },
+        {
+          "item_id": "ITEM002",
+          "description": "Keyboard",
+          "quantity": 1,
+          "price": 1300.25
+        }
+      ]
+    },
+    {
+      "transaction_id": "TXN002",
+      "customer_id": "CUST1002",
+      "amount": 5000.00,
+      "currency": "INR",
+      "payment_method": "Credit Card",
+      "status": "FAILED",
+      "timestamp": "2025-08-20T12:30:00Z",
+      "failure_reason": "Insufficient Balance",
+      "items": [
+        {
+          "item_id": "ITEM010",
+          "description": "Smartphone",
+          "quantity": 1,
+          "price": 5000.00
+        }
+      ]
+    }
+  ]
+}
